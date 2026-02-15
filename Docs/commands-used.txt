@@ -1,0 +1,4 @@
+cat /var/log/auth.log
+grep "Failed password" /var/log/auth.log
+grep "Accepted password" /var/log/auth.log
+tail -f /var/log/auth.log
